@@ -1,0 +1,19 @@
+url = https://smallbusinessonlinesit.bbt.com/sboEnrollment/main/web/sboEnroll/home
+browser = chrome
+solepropradiobuttonxpath 		= 			//*[contains(@id,'businessType02')]
+nonsoleradiobuttonxpath 		= 			//*[contains(@id,'businessType03')]
+annualsaledropdownxpath 		= 			//*[contains(@name,'annualSales')]
+inputforannualsales				=			$500,001 - $1,000,000
+continuebuttonxpath       		= 			//a[@type="button" and @href='javascript:submitForm();']
+accountnumberinputfieldxpath 	= 			//input[@name='acctNumber' and @type='text']
+inputaccnumber					=			1440016924893
+ssninoutfield					=			//input[@placeholder='##-#######']
+inputssnvlaue					=			654544641
+nonsolezipinputfiled			=			//input[starts-with(@id,'busZip2')]
+solezipinput					=			//input[starts-with(@id,'busZip1')]
+inputzipvalue					=			73301
+solephonenumberinputfiled		=			//input[@id='OwnerPhone' and @name='spPhone']	
+inputsolepropphonenumner		=			919-348-2457		
+solepropemailinputfiled			=			//input[@id='ownerEmail' and @name='spEmail']
+inputforemail					=			ashutosh.shandilya@bbandt.com
+soleprop_confirm_email_xpath	=			//input[@id='confOwnerEmail' and @name='spConfEmail' and @class='input input--stacked']
